@@ -56,7 +56,7 @@ func terms() ([]string, error) {
 
 type term struct {
 	Entry  string `json:"entry"`
-	Added  string `json:"added"`
+	Added  int    `json:"added"`
 	Author string `json:"author"`
 }
 

@@ -10,7 +10,8 @@ Getting a binary
 
 If you have Go:
     
-    go get github.com/q3k/louvre
+    go install github.com/q3k/louvre@latest
+    ~/go/bin/louvre
 
 If you don't, there's a few prebuilt binaries on GH.
 
